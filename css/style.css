@@ -5,6 +5,32 @@
     width: 50%;
 }
 
-h1{
+h1, nav{
     text-align: center;
+}
+
+ol, ul{
+    list-style-position: inside;
+}
+
+p, li, h1, h2, h3, h4, h5, h6, a{
+    color: firebrick;
+}
+
+img:hover{
+    transition: transform 0.5s;
+    transform: scale(1.2);
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 20px 5px 20px;
+    border-style: double;
+    border-width: 5px;
+    margin: 5px;
+}
+nav a:hover{
+    background-color: yellow;
+    box-shadow: 5px 5px  black;
 }
