@@ -34,3 +34,8 @@ nav a:hover{
     background-color: yellow;
     box-shadow: 5px 5px  black;
 }
+
+div{
+    padding: 10px;
+    box-shadow: 5px 5px 8px gray;
+}
