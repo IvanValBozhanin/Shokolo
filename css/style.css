@@ -9,6 +9,10 @@ h1, nav{
     text-align: center;
 }
 
+nav{
+    padding: 10px 0 10px 0;
+}
+
 ol, ul{
     list-style-position: inside;
 }
@@ -29,13 +33,45 @@ nav a{
     border-style: double;
     border-width: 5px;
     margin: 5px;
+    background-color: gold;
 }
 nav a:hover{
+    transition: background-color 0.5s, box-shadow 0.5s;
     background-color: yellow;
-    box-shadow: 5px 5px  black;
+    box-shadow: 5px 5px black;
 }
 
-div{
+#main, #CP{
     padding: 10px;
+    margin: 20px;
     box-shadow: 5px 5px 8px gray;
+}
+
+#main:hover{
+    transition: transform 0.3s;
+    transform: scale(1.02);
+}
+
+.buttonCP{
+    text-decoration: none;
+    background-color: gold;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.buttonCP:hover{
+    transition: background-color 0.5s, box-shadow 0.5s;
+    background-color: yellow;
+    box-shadow: 2px 2px black;
+}
+
+#subNav a{
+    background-color: #62d6ff;
+}
+
+#subNav a:hover{
+    background-color: #a2fcfc;
+    box-shadow: 5px 5px black;
+    transition: background-color 0.5s, box-shadow 0.5s;
 }
