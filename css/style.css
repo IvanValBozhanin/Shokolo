@@ -41,17 +41,20 @@ nav a:hover{
     box-shadow: 5px 5px black;
 }
 
-#main, #CP{
+#main, #CP, .product{
     padding: 10px;
     margin: 20px;
     box-shadow: 5px 5px 8px gray;
 }
 
-#main:hover{
+#main:hover, #CP:hover, .product:hover{
     transition: transform 0.3s;
     transform: scale(1.02);
 }
 
+.product img:hover{
+    transform: scale(1);
+}
 .buttonCP{
     text-decoration: none;
     background-color: gold;
@@ -68,6 +71,7 @@ nav a:hover{
 
 #subNav a{
     background-color: #62d6ff;
+    color: black;
 }
 
 #subNav a:hover{
